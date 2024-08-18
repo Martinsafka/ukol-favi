@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sedací souprava A",
+      "image": "link_to_image",
+      "description": "Popis produktu A",
+      "price": "5000 Kč",
+      "parameters": [
+        {"name": "Materiál", "value": "Látka"},
+        {"name": "Barva", "value": "Šedá"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sedací souprava B",
+      "image": "link_to_image",
+      "description": "Popis produktu B",
+      "price": "4500 Kč",
+      "parameters": [
+        {"name": "Materiál", "value": "Kůže"},
+        {"name": "Barva", "value": "Černá"}
+      ]
+    }
+  ],
+  "similarProducts": [
+    {
+      "productId": 1,
+      "products": [
+        {"id": 2, "name": "Sedací souprava B", "image": "link_to_image", "price": "4500 Kč"},
+        {"id": 3, "name": "Sedací souprava C", "image": "link_to_image", "price": "5500 Kč"}
+      ]
+    },
+    {
+      "productId": 2,
+      "products": [
+        {"id": 1, "name": "Sedací souprava A", "image": "link_to_image", "price": "5000 Kč"},
+        {"id": 3, "name": "Sedací souprava C", "image": "link_to_image", "price": "5500 Kč"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "favi-ukol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "db-start": "json-server --watch data/db.json --port 3000",
+    "serve": "http-server-spa ./ index.html",
+    "start": "concurrently \"npm run db-start\" \"npm run serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "http-server-spa": "^1.3.0",
+    "json-server": "^1.0.0-beta.1"
+  }
+}
